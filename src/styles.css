@@ -1,0 +1,416 @@
+.accordion {
+  width: 100%;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 10px;
+
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  background: #f4f4f4;
+}
+
+.accordion-body {
+  padding: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  /* margin: 5px; */
+}
+
+
+.user-list {
+  width: 37%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.user-list h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.user-list input {
+  font-size: medium;
+  height: 25px;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-avatar {
+  font-size: 2em;
+}
+
+.image {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.user-name {
+  font-size: 1.5em;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.dropdown-btn {
+  border: none;
+  background: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.dropdown-btn img {
+  width: 20px;
+  /* adjust as needed */
+  height: auto;
+}
+
+.dropdown-btn-expand img {
+  border: none;
+  width: 20px;
+  height: auto;
+  transform: rotate(180deg);
+}
+
+
+
+.profile-card {
+  /* border: 2px solid #ddd; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  padding: 16px;
+  /* background-color: #fff;
+  margin: 16px; */
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  font-weight: 100;
+  padding-right: 15px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  color: #a1a1a3;
+  margin-bottom: 10px;
+  margin-right: 15px;
+
+}
+
+
+
+.labels span,
+.values span {
+  flex: 1;
+  /* text-align: center; */
+}
+
+
+.actions {
+  /* /* bottom: 16px; */
+  right: 16px;
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+}
+
+.edit-btn,
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.delete-btn {
+  color: #dc3545;
+}
+
+
+.delete-title {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.accordion-delete {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.popup-actions {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+
+}
+
+.confirm-btn {
+  background-color: none;
+  color: black;
+  border: 2px solid #ddd;
+  padding: 10px 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #ff3500;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  padding: 10px 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.cancel-edit-btn {
+  border: none;
+  background: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.cancel-edit-btn img {
+  width: 28px;
+  /* adjust as needed */
+  height: auto;
+}
+
+.save-btn {
+  border: none;
+  background: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.save-btn img {
+  width: 39px;
+  /* adjust as needed */
+  height: auto;
+}
+
+
+.textarea-field {
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  width: 100%;
+  height: 100px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+
+
+
+.email-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.send-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f7fa;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* ResumeUploader.css */
+.resume-uploader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.dropzone:hover {
+  background-color: #f1f1f1;
+}
+
+.upload-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+/* ChatBot.css */
+.chatbot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.question-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.response {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  min-height: 50px;
+  text-align: left;
+  color: #333;
+}
