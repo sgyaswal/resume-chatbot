@@ -16,7 +16,7 @@ const ChatBot: React.FC<ChatBotProps> = ({ resumeData }) => {
     if (!question) return;
     setIsLoading(true);
     try {
-      const res = await axios.post('http://localhost:5000/api/question', { question, resumeData });
+      const res = await axios.post('https://resume-chatbot-backend.onrender.com/api/question', { question, resumeData });
       setResponse(res.data.answer);
     } catch (error) {
       console.error('Error fetching answer:', error);

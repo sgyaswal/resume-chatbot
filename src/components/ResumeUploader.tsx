@@ -25,7 +25,7 @@ const ResumeUploader: React.FC<ResumeUploaderProps> = ({ setResumeData }) => {
     formData.append('resume', file);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/upload', formData);
+      const response = await axios.post('https://resume-chatbot-backend.onrender.com/api/upload', formData);
       setResumeData(response.data.resumeData);
     } catch (error) {
       console.error('Error uploading file:', error);
